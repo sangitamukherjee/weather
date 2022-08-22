@@ -86,12 +86,12 @@ class Post extends React.Component {
         low: json.main.temp_min,
         high: json.main.temp_max,
         current: json.main.temp,
-        imageUrl: (iconCode) ? `http://openweathermap.org/img/wn/${iconCode}@2x.png` : "",
+        imageUrl: (iconCode) ? `https://openweathermap.org/img/wn/${iconCode}@2x.png` : "",
         weatherState: weather?.description,
         low1: json1.main.temp_min,
         high1: json1.main.temp_max,
         current1: json1.main.temp,
-        imageUrl1: (iconCode1) ? `http://openweathermap.org/img/wn/${iconCode1}@2x.png` : "",
+        imageUrl1: (iconCode1) ? `https://openweathermap.org/img/wn/${iconCode1}@2x.png` : "",
         weatherState1: weather1?.description
       });
     }
