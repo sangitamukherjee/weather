@@ -23,8 +23,8 @@ class Post extends React.Component {
 
     this.setState({ currentState: 'loading'});
 
-    const url = `http://api.openweathermap.org/data/2.5/weather?zip=3000,au&units=metric&appid=052f26926ae9784c2d677ca7bc5dec98`;
-    const url1 = `http://api.openweathermap.org/data/2.5/weather?zip=2000,au&units=metric&appid=052f26926ae9784c2d677ca7bc5dec98`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?zip=3000,au&units=metric&appid=052f26926ae9784c2d677ca7bc5dec98`;
+    const url1 = `https://api.openweathermap.org/data/2.5/weather?zip=2000,au&units=metric&appid=052f26926ae9784c2d677ca7bc5dec98`;
 
     try {
       const response = await fetch(url);
